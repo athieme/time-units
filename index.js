@@ -9,7 +9,15 @@ module.exports = function (number) {
     var result = {};
 
     var convert = {
+        m : {
+            s : function (number) {
+                return number * 60;
+            }
+        } ,
         s : {
+            m : function (number) {
+                return number / 60;
+            },
             ms : function (number) {
                 return number * 1000;
             }
