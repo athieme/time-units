@@ -1,25 +1,25 @@
 {
-    "name" : "time-units" ,
-    "version" : "0.1.0" ,
-    "description" : "Convert between different units of time (hours, minutes, seconds, etc)" ,
-    "keywords" : [
-        "time" , "units" , "convert" , "hours" , "minutes" , "seconds" , "milliseconds"
-    ] ,
-    "main" : "index.js" ,
-    "scripts" : {
-        "test" : "./node_modules/mocha/bin/mocha test/**/*.js"
-    } ,
-    "repository" : {
-        "type" : "git" ,
-        "url" : "https://github.com/athieme/time-units.git"
-    } ,
-    "author" : "Alex Thieme" ,
-    "license" : "MIT" ,
-    "dependencies" : {
-        "winston" : "0.7.2"
-    } ,
-    "devDependencies" : {
-        "mocha" : "1.17.1" ,
-        "should" : "3.1.2"
-    }
+  "name" : "time-units",
+  "version" : "0.1.0",
+  "description" : "Convert between different units of time (hours, minutes, seconds, etc)",
+  "keywords" : [
+    "time" , "units" , "convert" , "hours" , "minutes" , "seconds" , "milliseconds"
+  ],
+  "main" : "index.js",
+  "scripts" : {
+    "test" : "./node_modules/mocha/bin/mocha test/**/*.js"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/athieme/time-units.git"
+  },
+  "author" : "Alex Thieme",
+  "license" : "MIT",
+  "dependencies" : {
+    "winston" : "0.7.2"
+  },
+  "devDependencies" : {
+    "mocha" : "1.17.1",
+    "should" : "3.1.2"
+  }
 }
